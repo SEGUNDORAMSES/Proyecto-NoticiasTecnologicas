@@ -1,0 +1,29 @@
+*{margin:0;
+padding: 0;
+box-sizing: border-box;}
+
+
+body{background-color: black;}
+
+.navegacion-principal {display: flex;
+    justify-content: space-around;
+    align-items: center;
+padding-bottom: 20px;
+}
+
+.navegacion-principal__menu {display: flex;
+   flex-direction: row;
+  gap: 10px;
+  color: aliceblue;
+  ;list-style: none;
+}
+
+.navegacion-principal__menu a{color: white;
+text-decoration: none;}
+
+
+.navegacion-principal__menu-derecha {display: flex;
+
+    }
+
+.navegacion-principal__menu-derecha i{color: aliceblue;}
