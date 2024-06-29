@@ -1,29 +1,119 @@
-*{margin:0;
-padding: 0;
-box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+}
 
 
-body{background-color: black;}
+body {
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
 
-.navegacion-principal {display: flex;
-    justify-content: space-around;
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-padding-bottom: 20px;
+    padding-bottom: 20px;
+
 }
 
-.navegacion-principal__menu {display: flex;
-   flex-direction: row;
-  gap: 10px;
-  color: aliceblue;
-  ;list-style: none;
+.navegacion-principal__menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: aliceblue;
+    ;
+    list-style: none;
+
 }
 
-.navegacion-principal__menu a{color: white;
-text-decoration: none;}
+.navegacion-principal__menu a {
+    color: white;
+    text-decoration: none;
+}
 
 
-.navegacion-principal__menu-derecha {display: flex;
+.navegacion-principal__menu-derecha {
+    display: flex;
 
-    }
+}
 
-.navegacion-principal__menu-derecha i{color: aliceblue;}
+.navegacion-principal__menu-derecha i {
+    color: aliceblue;
+}
+
+.cabecera {
+    display: grid;
+    background-image: url(/assets/showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 300px;
+    margin-top: 20px;
+    padding-top: 50px;
+
+}
+
+.cabecera h2 {
+    justify-content: center;
+    display: grid;
+}
+
+.cabecera p {
+    text-align: center;
+}
+
+.boton {
+    display: grid;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.boton button {
+    background-color: #333;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border: groove white;
+}
+
+
+.tarjetas-noticias {
+    display: flex;
+    margin-top: 20px;
+    gap: 25px;
+
+}
+
+
+.tarjetas-noticias__tarjeta {
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+
+
+
+}
+
+.tarjetas-noticias__tarjeta p {
+    margin-top: 10px;
+}
+
+.tarjetas-noticias__tarjeta h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tarjetas-noticias__tarjeta a {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
