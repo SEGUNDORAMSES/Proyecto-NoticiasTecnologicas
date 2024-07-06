@@ -117,3 +117,134 @@ body {
     text-decoration: none;
     text-align: center;
 }
+
+
+.banner-tarjetas-uno {
+    display: grid;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    background-image: url(/assets/tech-red.jpg);
+    background-size: auto;
+    height: 300px;
+    background-position: center;
+    align-items: center;
+
+
+
+}
+
+.banner-tarjetas-uno__contenido p {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    width: 150px;
+    margin-top: 15px;
+    height: 50px;
+
+
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.tarjetas-noticias2 {
+    display: flex;
+    gap: 25px;
+}
+
+
+.tarjetas-noticias__tarjeta2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.tarjetas-noticias__tarjeta2 a {
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+.tarjetas-noticias__tarjeta2 p {
+    margin-top: 10px;
+}
+
+.tarjetas-noticias__tarjeta2 h3 {
+    margin-top: 10px;
+}
+
+
+.banner-tarjetas-dos {
+    display: grid;
+}
+
+.banner-tarjetas-dos__contenido {
+    background-image: url(/assets/Image-five.jpg);
+    background-size: auto;
+    background-position: center;
+    height: 250px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+}
+
+.social {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.enlaces-pie {
+    display: flex;
+}
+
+
+.enlaces-pie__contenedor {
+    display: flex;
+    gap: 930px;
+    background-color: #444;
+    margin-top: 50px;
+    height: 150px;
+
+}
+
+
+.enlaces-pie__lista {
+    flex-direction: column;
+    margin-top:  20px;
+    
+
+}
+
+
+.enlaces-pie__lista a {
+    text-decoration: none;
+    color: white;
+    ;
+}
+
+.pie {color: grey;
+    display: grid;
+    justify-content: center;
+ ;
+}
+
+
+
